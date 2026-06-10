@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Patient Testimonials | Shaurya Nursing Home & Home Care Services</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="../style.css"/>
+</head>
+<body>
+<div id="loading-screen"><div class="loader-logo">Shaurya <span>Nursing Home</span></div><div class="loader-bar"><div class="loader-bar-fill"></div></div></div>
+<div id="scroll-progress"></div>
+<button id="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+<!-- NAVBAR -->
+<nav class="navbar-main navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="/index.html"><i class="fas fa-heartbeat me-2" style="color:var(--accent)"></i>Shaurya<span class="brand-sub">Nursing Home & Home Care</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"><i class="fas fa-bars"></i></button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="nav-links navbar-nav ms-auto align-items-lg-center gap-1">
+        <li><a class="nav-link" href="/index.html">Home</a></li>
+        <li><a class="nav-link active" href="/pages/about.html">About</a></li>
+        <li><a class="nav-link" href="/pages/services.html">Services</a></li>
+        <li><a class="nav-link" href="/pages/staff.html">Our Team</a></li>
+        <li><a class="nav-link" href="/pages/gallery.html">Gallery</a></li>
+        <li><a class="nav-link" href="/pages/testimonials.html">Reviews</a></li>
+        <li><a class="nav-link nav-cta" href="/pages/contact.html"><i class="fas fa-phone-alt me-1"></i>Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <img class="bg-img" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920&q=80" alt="Testimonials"/>
+  <div class="container content text-center">
+    <div class="hero-badge mx-auto" style="justify-content:center"><span class="dot"></span>Patient Stories</div>
+    <h1>What Our <span style="color:var(--primary-light)">Patients Say</span></h1>
+    <p>Real stories from families we have had the privilege to serve</p>
+    <div class="breadcrumb-custom justify-content-center"><a href="index.html">Home</a><span>/</span><span>Testimonials</span></div>
+  </div>
+</section>
+
+<!-- RATING OVERVIEW -->
+<section class="section-pad-sm section-bg-blue">
+  <div class="container">
+    <div class="row align-items-center g-4 justify-content-center">
+      <div class="col-lg-4 text-center" data-aos="zoom-in">
+        <div style="font-size:5rem;font-weight:900;color:var(--primary);line-height:1">4.9</div>
+        <div style="color:#F59E0B;font-size:1.5rem;margin:.5rem 0"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+        <div style="color:var(--text-muted);font-size:.9rem">Based on 200+ Reviews</div>
+      </div>
+      <div class="col-lg-5" data-aos="fade-left">
+        <div style="margin-bottom:.8rem">
+          <div style="display:flex;align-items:center;gap:10px;font-size:.85rem">
+            <span style="width:60px;font-weight:600">5 Stars</span>
+            <div style="flex:1;height:8px;background:var(--border);border-radius:4px;overflow:hidden"><div style="height:100%;width:87%;background:var(--accent);border-radius:4px"></div></div>
+            <span style="width:30px;color:var(--text-muted)">87%</span>
+          </div>
+        </div>
+        <div style="margin-bottom:.8rem">
+          <div style="display:flex;align-items:center;gap:10px;font-size:.85rem">
+            <span style="width:60px;font-weight:600">4 Stars</span>
+            <div style="flex:1;height:8px;background:var(--border);border-radius:4px;overflow:hidden"><div style="height:100%;width:10%;background:#60B4F7;border-radius:4px"></div></div>
+            <span style="width:30px;color:var(--text-muted)">10%</span>
+          </div>
+        </div>
+        <div style="margin-bottom:.8rem">
+          <div style="display:flex;align-items:center;gap:10px;font-size:.85rem">
+            <span style="width:60px;font-weight:600">3 Stars</span>
+            <div style="flex:1;height:8px;background:var(--border);border-radius:4px;overflow:hidden"><div style="height:100%;width:3%;background:var(--border);border-radius:4px"></div></div>
+            <span style="width:30px;color:var(--text-muted)">3%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED SLIDER -->
+<section class="section-pad">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="section-label mx-auto" style="justify-content:center">Featured Reviews</div>
+      <h2 class="section-title">Stories of <span>Healing & Hope</span></h2>
+    </div>
+    <div class="swiper testimonial-swiper" data-aos="fade-up" data-aos-delay="200">
+      <div class="swiper-wrapper pb-5">
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="review-text">"After my father's bypass surgery, we were worried about managing his recovery at home. Shaurya's nursing team gave us complete peace of mind. The nurse was punctual, professional and genuinely caring — far beyond what we expected."</p>
+            <div class="reviewer"><img src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=100&q=80" alt="Rahul Sharma"/><div><div class="r-name">Rahul Sharma</div><div class="r-role">Patient's Son · Delhi</div></div></div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="review-text">"My 82-year-old mother-in-law needed round-the-clock care after a stroke. Shaurya's elderly care team has been phenomenal — patient, loving, and medically excellent. She's thriving at home and we couldn't be more grateful."</p>
+            <div class="reviewer"><img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=100&q=80" alt="Priya Verma"/><div><div class="r-name">Priya Verma</div><div class="r-role">Family Member · Noida</div></div></div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+            <p class="review-text">"Having ICU care at home seemed unbelievable until Shaurya made it a reality for us. Their critical care team was equipped, knowledgeable and responsive. My husband recovered faster at home than he would have in hospital."</p>
+            <div class="reviewer"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&q=80" alt="Sunita Gupta"/><div><div class="r-name">Sunita Gupta</div><div class="r-role">Patient's Wife · Gurgaon</div></div></div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="review-text">"The physiotherapist from Shaurya helped me walk again after my knee replacement. He came every day without fail, was incredibly skilled and motivated me through every session. I am now walking independently — thank you Shaurya!"</p>
+            <div class="reviewer"><img src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?w=100&q=80" alt="Deepak Malhotra"/><div><div class="r-name">Deepak Malhotra</div><div class="r-role">Patient · Rohini</div></div></div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="review-text">"We hired Shaurya for my grandfather who is bedridden. The care team's attention to detail — from positioning to hygiene — has prevented any pressure sores and kept him comfortable and dignified. Outstanding service."</p>
+            <div class="reviewer"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80" alt="Arvind Singh"/><div><div class="r-name">Arvind Singh</div><div class="r-role">Grandson · Faridabad</div></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ALL REVIEWS GRID -->
+<section class="section-pad section-bg-light">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="section-label mx-auto" style="justify-content:center">All Reviews</div>
+      <h2 class="section-title">200+ Happy <span>Families</span></h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"><div class="testimonial-card"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="review-text">"Exceptional home nursing service. The nurse was highly skilled, punctual and always had a smile. Made a very difficult time much more manageable."</p><div class="reviewer"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&q=80" alt="Vijay Kumar"/><div><div class="r-name">Vijay Kumar</div><div class="r-role">Delhi</div></div></div></div></div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150"><div class="testimonial-card"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="review-text">"Shaurya arranged an attendant for my mother within 5 hours of my call. The attendant was professional, gentle and extremely attentive. Will use them again."</p><div class="reviewer"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&q=80" alt="Nisha Kapoor"/><div><div class="r-name">Nisha Kapoor</div><div class="r-role">Ghaziabad</div></div></div></div></div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200"><div class="testimonial-card"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div><p class="review-text">"The medical equipment rental was hassle-free and everything was set up perfectly at home. The hospital bed and oxygen concentrator were top quality."</p><div class="reviewer"><img src="https://images.unsplash.com/photo-1607990283143-e81e7a2c9349?w=100&q=80" alt="Ramesh Agarwal"/><div><div class="r-name">Ramesh Agarwal</div><div class="r-role">Noida</div></div></div></div></div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"><div class="testimonial-card"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="review-text">"Five stars without hesitation. From the first call to daily care, everything was seamless. The team's dedication to my father's recovery was truly touching."</p><div class="reviewer"><img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=100&q=80" alt="Kavitha Nair"/><div><div class="r-name">Kavitha Nair</div><div class="r-role">South Delhi</div></div></div></div></div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150"><div class="testimonial-card"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="review-text">"During COVID, Shaurya's home monitoring team was a godsend. They checked vitals twice daily, adjusted oxygen support and gave us confidence during a terrifying time."</p><div class="reviewer"><img src="https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?w=100&q=80" alt="Sunil Mehta"/><div><div class="r-name">Sunil Mehta</div><div class="r-role">West Delhi</div></div></div></div></div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200"><div class="testimonial-card"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="review-text">"I was discharged after spinal surgery and needed specialised care. Shaurya's nurse knew exactly what to do and my recovery was smooth and complication-free."</p><div class="reviewer"><img src="https://images.unsplash.com/photo-1542206395-9feb3edaa68d?w=100&q=80" alt="Manish Tiwari"/><div><div class="r-name">Manish Tiwari</div><div class="r-role">Gurugram</div></div></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- LEAVE A REVIEW CTA -->
+<section class="cta-banner">
+  <div class="container content text-center">
+    <h2 class="mb-3">Had a Great Experience with <span style="color:#8FFFB0">Shaurya?</span></h2>
+    <p class="mb-4">We would love to hear your story. Share your experience and help other families make the right choice.</p>
+    <a href="contact.html" class="btn-outline-custom"><i class="fas fa-star"></i>Leave a Review</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4"><div class="footer-brand"><div class="logo-text"><i class="fas fa-heartbeat me-2" style="color:var(--accent)"></i>Shaurya <span>Nursing</span></div><p>Delivering trusted, compassionate home healthcare for over 15 years.</p></div><div class="footer-social"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-whatsapp"></i></a><a href="#"><i class="fab fa-youtube"></i></a></div></div>
+      <div class="col-sm-6 col-lg-2"><h6>Quick Links</h6><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="founder.html">Founder</a></li><li><a href="services.html">Services</a></li><li><a href="staff.html">Our Team</a></li></ul></div>
+      <div class="col-sm-6 col-lg-2"><h6>Services</h6><ul><li><a href="services.html">Home Nursing</a></li><li><a href="services.html">Elderly Care</a></li><li><a href="services.html">ICU at Home</a></li><li><a href="services.html">Physiotherapy</a></li></ul></div>
+      <div class="col-lg-4"><h6>Contact Us</h6><div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>123 Healthcare Avenue, Sector 15, Delhi NCR – 110001</span></div><div class="footer-contact-item"><i class="fas fa-phone-alt"></i><span>+91 99999 99999</span></div><div class="footer-contact-item"><i class="fas fa-envelope"></i><span>info@shauryanursinghome.com</span></div></div>
+    </div>
+  </div>
+  <div class="footer-bottom"><p>© 2024 Shaurya Nursing Home & Home Care Services. All Rights Reserved.</p></div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="../main.js"></script>
+</body>
+</html>
