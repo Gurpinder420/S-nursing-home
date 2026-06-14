@@ -993,3 +993,8 @@ ul { list-style: none; padding: 0; margin: 0; }
   .section-pad { padding: 48px 0; }
   .footer { padding-top: 48px; }
 }
+@media (max-width: 480px) {
+.nav-item a{
+    color: white;
+}
+}

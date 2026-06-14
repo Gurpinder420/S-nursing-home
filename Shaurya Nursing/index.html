@@ -125,7 +125,7 @@
         <div class="section-label">About Us</div>
         <h2 class="section-title">Your Trusted Partner in <span>Healthcare</span></h2>
         <p class="section-desc mb-4">Shaurya Nursing Home & Home Care Services has been a beacon of trust and compassion for over 15 years. Founded by Mr. Sushil Yadav, we provide comprehensive, personalised home healthcare to patients across the region.</p>
-        <div class="row g-3 mb-4">
+        <div class="row g-3 mb-4" id="row1">
           <div class="col-6">
             <div class="feature-item">
               <div class="fi-icon"><i class="fas fa-user-nurse"></i></div>
@@ -568,3 +568,25 @@
 <script src="main.js"></script>
 </body>
 </html>
+<style>
+  @media (max-width: 480px) {
+  #row1
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .feature-item
+  {
+    width: 350px;
+  
+  }
+  .stat-card{
+    margin-left: -25px;
+  }
+  .col-lg-5 img
+  {
+    margin-left: 45px;
+  }
+  
+  }
+</style>
