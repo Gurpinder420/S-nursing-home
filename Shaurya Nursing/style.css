@@ -132,6 +132,10 @@ ul { list-style: none; padding: 0; margin: 0; }
   color: var(--white);
   transition: color 0.3s;
 }
+.navbar-brand img {
+  height: 70px; width: auto;
+  margin-right: 10px;
+}
 .navbar-main.scrolled .navbar-brand { color: var(--primary); }
 .navbar-main .navbar-brand .brand-sub {
   display: block; font-family: var(--font-sans);
@@ -255,6 +259,7 @@ ul { list-style: none; padding: 0; margin: 0; }
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
   width: 100%;
+  height: 400px;
 }
 .hero-float-card {
   position: absolute;
@@ -502,6 +507,16 @@ ul { list-style: none; padding: 0; margin: 0; }
   width: 48px; height: 48px; border-radius: 50%; object-fit: cover;
   border: 2px solid var(--primary-light);
 }
+.reviewer img
+{
+  display: none;
+
+}
+.r-role
+{
+  display: none;
+  
+}
 .testimonial-card .reviewer .r-name { font-weight: 700; font-size: 0.9rem; }
 .testimonial-card .reviewer .r-role { font-size: 0.78rem; color: var(--text-muted); }
 
@@ -565,6 +580,9 @@ ul { list-style: none; padding: 0; margin: 0; }
   display: flex; align-items: flex-start; gap: 12px;
   font-size: 0.88rem; color: rgba(255,255,255,0.7);
   margin-bottom: 1rem;
+}
+.d-flex :hover{
+  transform: translateY(-3px);
 }
 .footer-contact-item i { color: var(--accent); font-size: 1rem; margin-top: 2px; flex-shrink: 0; }
 .footer-bottom {
